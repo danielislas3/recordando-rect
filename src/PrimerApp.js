@@ -10,7 +10,8 @@ const PrimerApp = ({saludo="Hola mundo"}) => {
   );
 };
 PrimerApp.propTypes={
-  saludo:PropTypes.string
+  saludo:PropTypes.string.isRequired,
+  
 }
 
 export default PrimerApp;
