@@ -6,5 +6,9 @@ exports[`Pruebas en componente PrimeraApp debe mostror <PrimeraApp> correectamen
      
     Hola soy Daniel
   </h1>
+  <p>
+     
+    Soy un subtitulo
+  </p>
 </Fragment>
 `;

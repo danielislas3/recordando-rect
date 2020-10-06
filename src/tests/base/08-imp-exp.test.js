@@ -8,7 +8,7 @@ describe("Pruebas en funciones de Héroes", () => {
     const id = 1;
     const heroe = getHeroeById(id);
 
-    const heroeData = heroes.find((h) => h.id == id);
+    const heroeData = heroes.find((h) => h.id === id);
     expect(heroe).toEqual(heroeData);
   });
 
